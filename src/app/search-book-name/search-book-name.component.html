@@ -1,0 +1,12 @@
+<div style='clear:both;'></div>
+<div style="margin-top:100px"></div>
+<div class="col-md-6 offset-md-3">
+<form (ngSubmit) = "onSubmit()">
+    <div class="form-group">
+        <label>Book Name</label>
+        <input type="text" class="form-control" id="bookId"
+        [(ngModel)] = "books.bookName" name="bookId" required />
+    </div>
+    <button class="btn btn-success" type="submit">Search</button>
+    </form>
+    </div>
